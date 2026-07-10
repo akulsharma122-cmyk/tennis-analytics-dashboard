@@ -42,7 +42,7 @@ with st.sidebar:
 
     st.subheader("Project Pages")
 
-    st.page_link("Homefile.py", label="🏠 Home")
+    st.write("🏠 Home")
 
     st.page_link(
          "pages/Competitor_Search.py",
