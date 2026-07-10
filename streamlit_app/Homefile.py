@@ -42,19 +42,33 @@ with st.sidebar:
 
     st.subheader("Project Pages")
 
-    st.markdown("""
-🏠 Home
+    st.page_link("streamlit_app/Homefile.py", label="🏠 Home")
 
-🔍 Competitor Search
+    st.page_link(
+      "streamlit_app/Competitor_Search.py",
+       label="🔍 Competitor Search"
+       )
 
-👤 Competitor Details
+    st.page_link(
+       "streamlit_app/Competitor_Details.py",
+        label="👤 Competitor Details"
+      )
 
-🌍 Country Analysis
+    st.page_link(
+       "streamlit_app/Country_Analysis.py",
+        label="🌍 Country Analysis"
+        )
 
-🏟️ Venue Analysis
+    st.page_link(
+       "streamlit_app/Venue_Analysis.py",
+        label="🏟 Venue Analysis"
+       )
 
-🏆 Competition Analysis
-""")
+   st.page_link(
+       "streamlit_app/Competition_Analysis.py",
+        label="🏆 Competition Analysis"
+     )
+    
 
     st.markdown("---")
 
