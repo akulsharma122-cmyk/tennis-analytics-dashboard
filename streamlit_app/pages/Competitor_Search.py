@@ -73,8 +73,6 @@ db_path = os.path.join(
 
 db_path = os.path.abspath(db_path)
 
-st.write(db_path)
-
 conn = sqlite3.connect(db_path)
 
 
