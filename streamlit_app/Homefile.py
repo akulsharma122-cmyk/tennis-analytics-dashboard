@@ -64,10 +64,10 @@ with st.sidebar:
         label="🏟 Venue Analysis"
        )
 
-   st.page_link(
+    st.page_link(
        "streamlit_app/Competition_Analysis.py",
         label="🏆 Competition Analysis"
-     )
+       )
     
 
     st.markdown("---")
