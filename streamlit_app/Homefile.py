@@ -42,33 +42,22 @@ with st.sidebar:
 
     st.subheader("Project Pages")
 
-    st.write("🏠 Home")
 
-    st.page_link(
-         "pages/Competitor_Search.py",
-          label="🔍 Competitor Search"
-         )
+    st.markdown("""
+        
+    🏠 Home
 
-    st.page_link(
-         "pages/Competitor_Details.py",
-        label="👤 Competitor Details"
-               )
+    🔍 Competitor Search
 
-    st.page_link(
-       "pages/Country_Analysis.py",
-        label="🌍 Country Analysis"
-           )
+    👤 Competitor Details
 
-    st.page_link(
-        "pages/Venue_Analysis.py",
-        label="🏟️ Venue Analysis"
-         )
+    🌍 Country Analysis
 
-    st.page_link(
-        "pages/Competition_Analysis.py",
-         label="🏆 Competition Analysis"
-           )
+    🏟️ Venue Analysis
 
+    🏆 Competition Analysis
+    """)
+    
     st.markdown("---")
 
     st.caption("SportRadar Tennis Analytics Dashboard")
