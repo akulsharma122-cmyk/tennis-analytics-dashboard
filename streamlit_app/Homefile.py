@@ -42,33 +42,32 @@ with st.sidebar:
 
     st.subheader("Project Pages")
 
-    st.page_link("streamlit_app/Homefile.py", label="🏠 Home")
+    st.page_link("Homefile.py", label="🏠 Home")
 
     st.page_link(
-      "streamlit_app/Competitor_Search.py",
-       label="🔍 Competitor Search"
-       )
+         "pages/Competitor_Search.py",
+          label="🔍 Competitor Search"
+         )
 
     st.page_link(
-       "streamlit_app/Competitor_Details.py",
+         "pages/Competitor_Details.py",
         label="👤 Competitor Details"
-      )
+               )
 
     st.page_link(
-       "streamlit_app/Country_Analysis.py",
+       "pages/Country_Analysis.py",
         label="🌍 Country Analysis"
-        )
+           )
 
     st.page_link(
-       "streamlit_app/Venue_Analysis.py",
-        label="🏟 Venue Analysis"
-       )
+        "pages/Venue_Analysis.py",
+        label="🏟️ Venue Analysis"
+         )
 
     st.page_link(
-       "streamlit_app/Competition_Analysis.py",
-        label="🏆 Competition Analysis"
-       )
-    
+        "pages/Competition_Analysis.py",
+         label="🏆 Competition Analysis"
+           )
 
     st.markdown("---")
 
