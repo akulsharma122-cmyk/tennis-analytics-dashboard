@@ -39,13 +39,6 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # Return to Homepage
-    st.page_link(
-        "Homefile.py",
-        label="🏠 Return to Homepage",
-        icon="🏠"
-    )
-
     st.markdown("---")
 
     st.caption("SportRadar Tennis Analytics Dashboard")
@@ -61,6 +54,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 db_path = os.path.join(
     BASE_DIR,
+    "..",
     "..",
     "database",
     "tennis_analytics.db"
